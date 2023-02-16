@@ -1,11 +1,8 @@
-package ie.atu.productv3;
-
-import ie.atu.productv2.Book;
+package ie.atu.Productv5;
 
 import java.util.Scanner;
 
 public class ProductApp {
-
 
     public static void main(String args[]) {
         // display a welcome message

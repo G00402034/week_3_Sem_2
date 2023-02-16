@@ -1,10 +1,9 @@
-package ie.atu.productv3;
-
-import ie.atu.productv2.Book;
+package ie.atu.Productv6;
 
 import java.util.Scanner;
 
-public class ProductApp {
+public class ProductApp implements Productable {
+
 
 
     public static void main(String args[]) {
@@ -21,7 +20,7 @@ public class ProductApp {
             String productCode = sc.nextLine();  // read the product code
 
             // get the Product object
-            Product p = ProductDB.getProduct(productCode);
+            Productable p = ProductDB.getProduct(productCode);
 
             // display the output
             System.out.println();
